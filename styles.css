@@ -1,0 +1,116 @@
+body {
+  background-image: url('images/bg4.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0.1;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  text-size-adjust: 20px;
+}
+
+header {
+  background-image: url('images/bg4.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between title and menu */
+  color: #fff;
+  padding: 10px;
+  background-color: #000000; /* Optional: adds a background color */
+}
+.header-logo {
+  width: 10px; /* Adjust the size of the image */
+  height: 50px;
+  margin-right: 1px; /* Add spacing between image and title */
+}
+nav ul {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Arrange list items in a row */
+  gap: 45px; /* Add space between items */
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+
+nav ul li {
+  display: inline; /* Ensure items are inline */
+
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Link color */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007BFF; /* Change link color on hover */
+}
+
+main {
+  padding: 2rem;
+  background-color: transparent;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: medium;
+}
+
+footer {
+  background-image: url('images/bg4.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed;
+  text-align: center;
+  padding: .005rem;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.Aboutme{
+  padding-right: 600px;
+}
+.biodata{
+  text-decoration: none;
+  color: #2c1a03;
+}
+.footer {
+  background-image: url('images/bg4.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole screen */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed;
+  display: flex; /* Align items in a row */
+  align-items: end; /* Vertically align items */
+  /* justify-content: space-between; Space out items if needed */
+  padding: 10px 10px 10px;
+  padding-bottom: 10px; /* Add some padding */
+  background-color: #020202; /* Light background color */ /* Optional: top border for the footer */
+}
+
+.footer-logo {
+  height: 40px; /* Adjust the size of the logo */
+  margin-right: 30px; /* Space between logo and text */
+}
+
+.footer-text {
+  font-size: 14px; /* Adjust font size */
+  color: #f5f5f5; /* Text color */
+  margin: 0; /* Remove default paragraph margins */
+  margin-left: 70%;
+}
+section{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+}
+a{
+  color: #fff;
+}
